@@ -1,0 +1,8 @@
+<Meta name="Test_1">
+  <messagelist>
+    <message status="normal" label="clean" groupid="100000" scope="" id="2007485737" classid="MessageObj"><![CDATA[Completed cleaning of temporary files and data.]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="Test_1:Main" call="0" />
+  </ViewContext>
+</Meta>
