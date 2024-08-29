@@ -1,8 +1,61 @@
 <Meta name="Test_1">
   <messagelist>
-    <message status="normal" label="clean" groupid="100000" scope="" id="2007485737" classid="MessageObj"><![CDATA[Completed cleaning of temporary files and data.]]></message>
+    <message status="normal" label="build" groupid="400002" scope="" id="1518196498" classid="MessageObj"><![CDATA[Begin compiling with PSCAD Version 5.0.1]]></message>
+    <message status="normal" label="build" groupid="100006" link="492843076" id="492843076" classid="FileNavigator"><![CDATA[Generating 'G:\My Drive\PhD\PSCAD\Learning\Git Learning Examples\PSCAD--Learning\Control.if18_x86\Control.map'.]]><file scope="">G:\My Drive\PhD\PSCAD\Learning\Git Learning Examples\PSCAD--Learning\Control.if18_x86\Control.map</file></message>
+    <message status="normal" label="build" groupid="100015" scope="" id="1691175428" classid="MessageObj"><![CDATA[The total number of live nodes: 6]]></message>
+    <message status="normal" label="build" groupid="0" link="1880244015" id="1880244015" classid="FileNavigator"><![CDATA[Coding .mak file: 'G:\My Drive\PhD\PSCAD\Learning\Git Learning Examples\PSCAD--Learning\Control.if18_x86\\Control.mak']]><file scope="">G:\My Drive\PhD\PSCAD\Learning\Git Learning Examples\PSCAD--Learning\Control.if18_x86\\Control.mak</file></message>
+    <message status="normal" label="build" groupid="400000" scope="" id="820927820" classid="MessageObj"><![CDATA[Time for Compile: 266ms  Make: 16ms]]></message>
+    <message status="normal" label="build" groupid="400000" scope="" id="598073183" classid="MessageObj"><![CDATA[Solve Time = 0ms]]></message>
+    <message status="normal" label="build" groupid="100016" scope="" id="814219998" classid="MessageObj"><![CDATA[Will execute (1): call C:\Program Files (x86)\Intel\oneAPI\compiler\2024.2\..\..\setvars.bat  ia32]]></message>
+    <message status="normal" label="build" groupid="100016" scope="" id="237618631" classid="MessageObj"><![CDATA[Will execute (1): call "C:\Program Files (x86)\Intel\oneAPI\compiler\2024.2\..\..\setvars.bat"  ia32]]></message>
+    <message status="normal" label="build" groupid="100016" scope="" id="1911579035" classid="MessageObj"><![CDATA[Will execute (2): nmake -f Control.mak]]></message>
+    <message status="normal" label="build" groupid="100016" scope="" id="375123717" classid="MessageObj"><![CDATA[Will execute (2): "G:\My Drive\PhD\PSCAD\Learning\Git Learning Examples\PSCAD--Learning\Control.if18_x86\Control_mak.bat"]]></message>
+    <message status="normal" label="build" groupid="100005" scope="" id="1584272743" classid="MessageObj"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="704187262" classid="MessageObj"><![CDATA[G:\My Drive\PhD\PSCAD\Learning\Git Learning Examples\PSCAD--Learning\Control.if18_x86>call "C:\Program Files (x86)\Intel\oneAPI\compiler\2024.2\..\..\setvars.bat"  ia32 ]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="514824910" classid="MessageObj"><![CDATA[:: initializing oneAPI environment...]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="1498070634" classid="MessageObj"><![CDATA[   Initializing Visual Studio command-line environment...]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="774695201" classid="MessageObj"><![CDATA[   Visual Studio version 17.11.1 environment configured.]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="649493251" classid="MessageObj"><![CDATA[   "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\"]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="560414503" classid="MessageObj"><![CDATA[   Visual Studio command-line environment initialized for: 'x86']]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="2009195836" classid="MessageObj"><![CDATA[:  advisor -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="248771653" classid="MessageObj"><![CDATA[:  compiler -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="1221255983" classid="MessageObj"><![CDATA[:  dal -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="1460559441" classid="MessageObj"><![CDATA[:  debugger -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="1226639954" classid="MessageObj"><![CDATA[:  dev-utilities -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="1948957290" classid="MessageObj"><![CDATA[:  dnnl -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="1595546268" classid="MessageObj"><![CDATA[:  dpcpp-ct -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="335186365" classid="MessageObj"><![CDATA[ Visual Studio is configured for 32-bit development environment.]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="469631906" classid="MessageObj"><![CDATA[ The compatibility tool requires a 64-bit development environment.]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="354979470" classid="MessageObj"><![CDATA[:  dpl -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="558546387" classid="MessageObj"><![CDATA[:  ipp -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="1496690102" classid="MessageObj"><![CDATA[:  ippcp -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="612207170" classid="MessageObj"><![CDATA[:  mkl -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="861876022" classid="MessageObj"><![CDATA[:  mpi -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="807600279" classid="MessageObj"><![CDATA[:  ocloc -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="755743409" classid="MessageObj"><![CDATA[:  tbb -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="114146793" classid="MessageObj"><![CDATA[:  vtune -- latest]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="683840748" classid="MessageObj"><![CDATA[:: oneAPI environment initialized ::]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="210182431" classid="MessageObj"><![CDATA[Microsoft (R) Program Maintenance Utility Version 14.41.34120.0]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="23411081" classid="MessageObj"><![CDATA[Copyright (C) Microsoft Corporation.  All rights reserved.]]></message>
+    <message status="normal" label="build" groupid="100004" scope="" id="1757805342" classid="MessageObj"><![CDATA[Compiling 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" groupid="0" scope="" id="310066182" classid="MessageObj"><![CDATA[ifort: remark #10448: Intel(R) Fortran Compiler Classic (ifort) is now deprecated and will be discontinued late 2024. Intel recommends that customers transition now to using the LLVM-based Intel(R) Fortran Compiler (ifx) for continued Windows* and Linux* support, new language support, new language features, and optimizations. Use '/Qdiag-disable:10448' to disable this message.]]></message>
+    <message status="warning" label="build" groupid="200008" scope="" id="713244121" classid="MessageObj"><![CDATA[ifort: command line warning #10434: option '/real_size' use with underscore is deprecated; use '/real-size' instead]]></message>
+    <message status="normal" label="build" groupid="100013" scope="" id="1879018572" classid="MessageObj"><![CDATA[Linking objects and libraries into binary 'Control.exe']]></message>
+    <message status="normal" label="build" groupid="400003" scope="" id="1401914672" classid="MessageObj"><![CDATA[Finished compiling with PSCAD Version 5.0.1]]></message>
   </messagelist>
   <ViewContext>
-    <Window defn="Test_1:Main" call="0" />
+    <Window defn="Control:Main" call="0" />
   </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomscale="1.875" scrollx="423" scrolly="244" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2024/08/29" time="08:42:16.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="4000.0" end="2000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):Ia_1" index="1" gindex="100663297" id="507645479:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
 </Meta>
