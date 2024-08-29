@@ -46,7 +46,7 @@
 ! Electrical Node Indices
 
 ! Control Signals
-      REAL     Ia_1, Ib, Ic
+      REAL     Ia, Ib, Ic
 
 ! Internal Variables
       REAL     RVD1_1, RVD1_2, RVD1_3, RVD1_4
@@ -79,7 +79,7 @@
 
       ISTOF     = NSTOF
       NSTOF     = NSTOF + 3
-      NPGB      = NPGB + 1
+      NPGB      = NPGB + 3
       INODE     = NNODE + 2
       NNODE     = NNODE + 8
       NCSCS     = NCSCS + 0
@@ -103,7 +103,7 @@
 ! Transfers from storage arrays 
 !---------------------------------------
 
-      Ia_1     = STOF(ISTOF + 1)
+      Ia       = STOF(ISTOF + 1)
       Ib       = STOF(ISTOF + 2)
       Ic       = STOF(ISTOF + 3)
 
@@ -144,7 +144,7 @@
 ! Feedbacks and transfers to storage 
 !---------------------------------------
 
-      STOF(ISTOF + 1) = Ia_1
+      STOF(ISTOF + 1) = Ia
       STOF(ISTOF + 2) = Ib
       STOF(ISTOF + 3) = Ic
 
@@ -196,7 +196,7 @@
 ! Electrical Node Indices
 
 ! Control Signals
-      REAL     Ia_1, Ib, Ic
+      REAL     Ia, Ib, Ic
 
 ! Internal Variables
 
@@ -228,7 +228,7 @@
 ! Increment global storage indices
 
       IPGB      = NPGB
-      NPGB      = NPGB + 1
+      NPGB      = NPGB + 3
       INODE     = NNODE + 2
       NNODE     = NNODE + 8
       NCSCS     = NCSCS + 0
@@ -252,7 +252,7 @@
 ! Transfers from storage arrays 
 !---------------------------------------
 
-      Ia_1     = STOF(ISTOF + 1)
+      Ia       = STOF(ISTOF + 1)
       Ib       = STOF(ISTOF + 2)
       Ic       = STOF(ISTOF + 3)
 
@@ -277,8 +277,8 @@
 !---------------------------------------
 
 
-! 10:[ammeter] Current Meter 'Ia_1'
-      Ia_1 = ( CBR((IBRCH(1)+1), SS(1)))
+! 10:[ammeter] Current Meter 'Ia'
+      Ia = ( CBR((IBRCH(1)+1), SS(1)))
 
 ! 20:[ammeter] Current Meter 'Ib'
       Ib = ( CBR((IBRCH(1)+2), SS(1)))
@@ -286,15 +286,23 @@
 ! 30:[ammeter] Current Meter 'Ic'
       Ic = ( CBR((IBRCH(1)+3), SS(1)))
 
-! 40:[pgb] Output Channel 'Ia_1'
+! 40:[pgb] Output Channel 'Ia'
 
-      PGB(IPGB+1) = Ia_1
+      PGB(IPGB+1) = Ia
+
+! 50:[pgb] Output Channel 'Ib'
+
+      PGB(IPGB+2) = Ib
+
+! 60:[pgb] Output Channel 'Ic'
+
+      PGB(IPGB+3) = Ic
 
 !---------------------------------------
 ! Feedbacks and transfers to storage 
 !---------------------------------------
 
-      STOF(ISTOF + 1) = Ia_1
+      STOF(ISTOF + 1) = Ia
       STOF(ISTOF + 2) = Ib
       STOF(ISTOF + 3) = Ic
 
@@ -491,7 +499,11 @@
 !---------------------------------------
 
 
-! 40:[pgb] Output Channel 'Ia_1'
+! 40:[pgb] Output Channel 'Ia'
+
+! 50:[pgb] Output Channel 'Ib'
+
+! 60:[pgb] Output Channel 'Ic'
 
       RETURN
       END
